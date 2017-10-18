@@ -1,0 +1,133 @@
+*{
+    border:none;/*thin dashed red;*/
+}
+p{
+    padding:10px;
+    margin-top:0px;
+}
+#container{
+    width:840px;
+    background-color:purple;
+    position:absolute;
+    top:0px;
+    left:0px;
+    padding-left:0px;
+    
+}
+h1{
+    display:inline-block;
+    margin:15px;
+    margin-left:30px;
+}
+h2{
+    display:inline-block;
+    position:absolute;
+    right:0px;
+    text-align:right;
+    vertical-align: middle;
+    margin-right:30px;
+    font-size: 20px;
+}
+#top_bio{
+    position: relative;
+    width:840px;
+    left:0px;
+    background-color:white;
+}
+#profile{
+    width:360px;
+    border: 5px solid silver;
+    margin:20px 0px 20px 20px;
+}
+#about{
+    width:400px;
+    vertical-align: top;
+    display:inline-block;
+    margin:20px;
+    background-color: white;    
+}
+
+h3{
+    color: white;
+    font-size:20;
+    background-color: silver;
+    padding:5px;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-left:10px;
+}
+
+div{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+h3+div>img{
+    width:230px;
+    margin-bottom:0px;
+}
+
+.technologies>div>div>img{
+    width:35px;
+    margin:3px;
+
+}
+.technologies>div>div{
+    margin:3px;
+}
+.technologies{
+    left:0px;
+    right:0px;
+    margin-left:0px;
+    margin-right:0px;
+}
+.block{
+    display:block;
+}
+h4{
+    color:white;
+    background-color:silver;
+    padding:5px;
+    font-weight: normal;
+    padding-left:10px;
+}
+h5{
+    background-color:green;
+    border-radius:8px;
+    border-style:solid;
+    border-color:black;
+    left:100px;
+    right:100px;
+    margin: 20px 80px;
+    color:white;
+    padding:5px;
+    text-align: center;
+    font-size: 12px;
+}
+.subPane{
+    width: 230px;
+
+    margin:0px 0px 20px 20px;
+    background-color: white;
+    /*gradient left, vertical*/
+}
+footer img{
+    width:15px;
+    vertical-align:middle;
+    margin:3px;
+  
+}
+footer{
+    margin-top:5px;
+    text-align: center;
+    font-size:14px;
+    background-color: white;
+}
+footer p{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+footer p:nth-of-type(2){
+    font-style:italic;
+    text-decoration:underline;
+}
