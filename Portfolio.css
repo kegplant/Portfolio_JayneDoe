@@ -11,13 +11,13 @@ p{
     position:absolute;
     top:0px;
     left:0px;
-    padding-left:0px;
-    
+    background: radial-gradient(silver 5%, purple)
 }
 h1{
     display:inline-block;
     margin:15px;
     margin-left:30px;
+    font-family:"Comic Sans MS";
 }
 h2{
     display:inline-block;
@@ -44,7 +44,8 @@ h2{
     vertical-align: top;
     display:inline-block;
     margin:20px;
-    background-color: white;    
+    background-color: white;  
+    background: linear-gradient(to right, white,gray);
 }
 
 h3{
@@ -55,25 +56,26 @@ h3{
     margin-top:0px;
     margin-bottom:0px;
     padding-left:10px;
+    background:linear-gradient(white,grey,white);
 }
 
 div{
     display: inline-block;
-    vertical-align: top;
-    
+    vertical-align: top;   
 }
 h3+div>img{
-    width:230px;
+    width:250px;
     margin-bottom:0px;
 }
 
 .technologies>div>div>img{
-    width:35px;
+    width:30px;
     margin:3px;
-
 }
 .technologies>div>div{
     margin:3px;
+    position:relative;
+    left:10px;
 }
 .technologies{
     left:0px;
@@ -81,21 +83,20 @@ h3+div>img{
     margin-left:0px;
     margin-right:0px;
 }
-.block{
-    display:block;
-}
 h4{
     color:white;
     background-color:silver;
     padding:5px;
     font-weight: normal;
     padding-left:10px;
+    background:linear-gradient(white,grey,white);
 }
 h5{
     background-color:green;
     border-radius:8px;
     border-style:solid;
     border-color:black;
+    border-width:1px;
     left:100px;
     right:100px;
     margin: 20px 80px;
@@ -103,13 +104,15 @@ h5{
     padding:5px;
     text-align: center;
     font-size: 12px;
+    box-shadow: 3px 3px 3px black;
 }
 .subPane{
-    width: 230px;
+    width: 250px;
 
     margin:0px 0px 20px 20px;
     background-color: white;
     /*gradient left, vertical*/
+    background:linear-gradient(to right,white,grey);
 }
 footer img{
     width:15px;
@@ -119,6 +122,7 @@ footer img{
 }
 footer{
     margin-top:5px;
+    margin-bottom:0px;
     text-align: center;
     font-size:14px;
     background-color: white;
